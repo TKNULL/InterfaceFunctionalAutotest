@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-基本功能接口测试" class="navigator-link">
+              <span class="suite-name border-skipped">基本功能接口测试</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-基本功能接口测试" class="navigator-link ">
+                    <span>E:\JAVAWORKSPACE\autotest-master\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-基本功能接口测试" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-基本功能接口测试" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-基本功能接口测试" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-基本功能接口测试" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-基本功能接口测试" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-基本功能接口测试" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,  19 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-基本功能接口测试" class="hide-methods skipped suite-基本功能接口测试"> (hide)</a> <!-- hide-methods skipped suite-基本功能接口测试 -->
+                      <a href="#" panel-name="suite-基本功能接口测试" class="show-methods skipped suite-基本功能接口测试"> (show)</a> <!-- show-methods skipped suite-基本功能接口测试 -->
+                    </span>
+                    <div class="method-list-content skipped suite-基本功能接口测试">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_1(org.testng.TestRunner@27ce24aa)">test_appeal_0_1(org.testng.TestRunner@27ce24aa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_10">test_appeal_0_10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_11">test_appeal_0_11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_12">test_appeal_0_12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_13">test_appeal_0_13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_14">test_appeal_0_14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_15">test_appeal_0_15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_16">test_appeal_0_16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_17">test_appeal_0_17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_18">test_appeal_0_18</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_19">test_appeal_0_19</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_2">test_appeal_0_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_3">test_appeal_0_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_4">test_appeal_0_4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_5">test_appeal_0_5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_6">test_appeal_0_6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_7">test_appeal_0_7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_8">test_appeal_0_8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-基本功能接口测试" title="test_case.test_appeal_0" class="method navigator-link" hash-for-method="test_appeal_0_9">test_appeal_0_9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-基本功能接口测试 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-基本功能接口测试" class="panel 基本功能接口测试">
+          <div class="suite-基本功能接口测试-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test_case.test_appeal_0</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_1(org.testng.TestRunner@27ce24aa)">
+                  </a> <!-- test_appeal_0_1(org.testng.TestRunner@27ce24aa) -->
+                  <span class="method-name">test_appeal_0_1</span>
+                  <span class="parameters">(org.testng.TestRunner@27ce24aa)</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at test_case.User.login_and_return_token(User.java:570)
+	at test_case.test_appeal_0.before_class(test_appeal_0.java:143)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户下单，判断是否下单成功（根据是否返回订单ID来判断）)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_10">
+                  </a> <!-- test_appeal_0_10 -->
+                  <span class="method-name">test_appeal_0_10</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_10(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户点击【申诉】后，查看用户申诉状态)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_11">
+                  </a> <!-- test_appeal_0_11 -->
+                  <span class="method-name">test_appeal_0_11</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_11(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户点击【申诉】后，查看承兑商申诉状态)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_12">
+                  </a> <!-- test_appeal_0_12 -->
+                  <span class="method-name">test_appeal_0_12</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_12(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户点击【取消申诉】，查看取消是否成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_13">
+                  </a> <!-- test_appeal_0_13 -->
+                  <span class="method-name">test_appeal_0_13</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_13(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户点击【取消申诉】后，查看用户申诉状态)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_14">
+                  </a> <!-- test_appeal_0_14 -->
+                  <span class="method-name">test_appeal_0_14</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_14(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户点击【取消申诉】后，查看承兑商申诉状态)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_15">
+                  </a> <!-- test_appeal_0_15 -->
+                  <span class="method-name">test_appeal_0_15</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_15(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(承兑商点击【申诉】，查看申诉是否成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_16">
+                  </a> <!-- test_appeal_0_16 -->
+                  <span class="method-name">test_appeal_0_16</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_16(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(承兑商申诉后，查看承兑商申诉状态)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_17">
+                  </a> <!-- test_appeal_0_17 -->
+                  <span class="method-name">test_appeal_0_17</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_17(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(承兑商申诉后，查看用户申诉状态)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_18">
+                  </a> <!-- test_appeal_0_18 -->
+                  <span class="method-name">test_appeal_0_18</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_18(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(承兑商点击【取消申诉】，承兑商订单状态变为“已付款待确认”)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_19">
+                  </a> <!-- test_appeal_0_19 -->
+                  <span class="method-name">test_appeal_0_19</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_19(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(承兑商点击【取消申诉】，用户订单状态变为“已付款待确认”)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_2">
+                  </a> <!-- test_appeal_0_2 -->
+                  <span class="method-name">test_appeal_0_2</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_2(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(下单成功后，用户【我的】【我的订单】页面第一列显示该订单，且订单状态为“未付款”)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_3">
+                  </a> <!-- test_appeal_0_3 -->
+                  <span class="method-name">test_appeal_0_3</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_3(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(下单成功后，承兑商【承兑】【承兑资产】资金冻结X)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_4">
+                  </a> <!-- test_appeal_0_4 -->
+                  <span class="method-name">test_appeal_0_4</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_4(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(下单成功后，承兑商【承兑】【收款订单】页面第一列显示该订单，订单状态为“未付款”)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_5">
+                  </a> <!-- test_appeal_0_5 -->
+                  <span class="method-name">test_appeal_0_5</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_5(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户点击【我已付款】，查看付款是否成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_6">
+                  </a> <!-- test_appeal_0_6 -->
+                  <span class="method-name">test_appeal_0_6</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_6(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户付款后，用户【我的】【我的订单】页面第一列显示该订单，且订单状态为”已付款待确认（2）”)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_7">
+                  </a> <!-- test_appeal_0_7 -->
+                  <span class="method-name">test_appeal_0_7</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_7(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户付款后，承兑商【承兑】【收款订单】页面第一列显示该订单，订单状态为“已付款”)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_8">
+                  </a> <!-- test_appeal_0_8 -->
+                  <span class="method-name">test_appeal_0_8</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_8(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户付款后，承兑商【承兑】【今日累积收款】金额不变（保存今日累积收款金额，便于参与计算）)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_appeal_0_9">
+                  </a> <!-- test_appeal_0_9 -->
+                  <span class="method-name">test_appeal_0_9</span>
+                  <div class="stack-trace">java.lang.Throwable: Method test_appeal_0.test_appeal_0_9(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(用户点击【申诉】，查看申诉是否成功)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-基本功能接口测试-class-skipped -->
+        </div> <!-- panel 基本功能接口测试 -->
+        <div panel-name="test-xml-基本功能接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\JAVAWORKSPACE\autotest-master\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;12&quot; parallel=&quot;methods&quot; name=&quot;基本功能接口测试&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;basic.myExtentTestNgFormatter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;购买EUSD后，双方申诉&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test_case.test_appeal_0&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;test_appeal_0_1&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_2&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_3&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_4&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_5&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_6&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_7&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_8&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_9&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_10&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_11&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_12&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_13&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_14&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_15&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_16&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_17&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_18&quot;/&gt;
+          &lt;include name=&quot;test_appeal_0_19&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test_case.test_appeal_0 --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 购买EUSD后，双方申诉 --&gt;
+&lt;/suite&gt; &lt;!-- 基本功能接口测试 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-基本功能接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 基本功能接口测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">购买EUSD后，双方申诉 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-基本功能接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 基本功能接口测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-基本功能接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 基本功能接口测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_基本功能接口测试');
+function tableData_基本功能接口测试() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_appeal_0_1')
+data.setCell(0, 2, 'test_case.test_appeal_0')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_appeal_0_8')
+data.setCell(1, 2, 'test_case.test_appeal_0')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_appeal_0_9')
+data.setCell(2, 2, 'test_case.test_appeal_0')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_appeal_0_2')
+data.setCell(3, 2, 'test_case.test_appeal_0')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_appeal_0_13')
+data.setCell(4, 2, 'test_case.test_appeal_0')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_appeal_0_6')
+data.setCell(5, 2, 'test_case.test_appeal_0')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_appeal_0_15')
+data.setCell(6, 2, 'test_case.test_appeal_0')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_appeal_0_19')
+data.setCell(7, 2, 'test_case.test_appeal_0')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_appeal_0_18')
+data.setCell(8, 2, 'test_case.test_appeal_0')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_appeal_0_17')
+data.setCell(9, 2, 'test_case.test_appeal_0')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_appeal_0_12')
+data.setCell(10, 2, 'test_case.test_appeal_0')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_appeal_0_5')
+data.setCell(11, 2, 'test_case.test_appeal_0')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_appeal_0_7')
+data.setCell(12, 2, 'test_case.test_appeal_0')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_appeal_0_10')
+data.setCell(13, 2, 'test_case.test_appeal_0')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_appeal_0_11')
+data.setCell(14, 2, 'test_case.test_appeal_0')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_appeal_0_14')
+data.setCell(15, 2, 'test_case.test_appeal_0')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_appeal_0_3')
+data.setCell(16, 2, 'test_case.test_appeal_0')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test_appeal_0_4')
+data.setCell(17, 2, 'test_case.test_appeal_0')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test_appeal_0_16')
+data.setCell(18, 2, 'test_case.test_appeal_0')
+data.setCell(18, 3, 0);
+window.suiteTableData['基本功能接口测试']= { tableData: data, tableDiv: 'times-div-基本功能接口测试'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-基本功能接口测试">
+              </div> <!-- times-div-基本功能接口测试 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-基本功能接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 基本功能接口测试</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-基本功能接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-基本功能接口测试" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_case.test_appeal_0</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">before_class(org.testng.TestRunner@27ce24aa)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_appeal_0_1(org.testng.TestRunner@27ce24aa)</span>
+                <span class="method-start">612 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

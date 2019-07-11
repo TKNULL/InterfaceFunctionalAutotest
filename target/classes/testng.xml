@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name ="基本功能接口测试">
+
+    <test name="test_eusd_buy_0,EUSD,普通用户，下单购买，订单生成后，用户取消订单">
+        <classes>
+            <class name = "test_case.test_eusd_buy_0">
+                <methods>
+                    <include name = "eusd_buy_0_1" />
+                    <include name = "eusd_buy_0_2" />
+                    <include name = "eusd_buy_0_3" />
+                    <include name = "eusd_buy_0_4" />
+                    <include name = "eusd_buy_0_5" />
+                    <include name = "eusd_buy_0_6" />
+                    <include name = "eusd_buy_0_7" />
+                    <include name = "eusd_buy_0_8" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="test_eusd_buy_1,EUSD，普通用户，下单购买，订单生成后，用户15分钟内无操作，系统自动取消订单">
+        <classes>
+            <class name = "test_case.test_eusd_buy_1">
+                <methods>
+                    <include name = "eusd_buy_1_1" />
+                    <include name = "eusd_buy_1_2" />
+                    <include name = "eusd_buy_1_3" />
+                    <include name = "eusd_buy_1_4" />
+                    <include name = "eusd_buy_1_5" />
+                    <include name = "eusd_buy_1_6" />
+                    <include name = "eusd_buy_1_7" />
+                    <include name = "eusd_buy_1_8" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="test_eusd_buy_2,用户购买EUSD下单后，匹配到承兑商生成订单；用户点击【我已付款】；承兑商点击【我已收款】，交易成功">
+        <classes>
+            <class name = "test_case.test_eusd_buy_2">
+                <methods>
+                    <include name = "eusd_buy_2_1" />
+                    <include name = "eusd_buy_2_2" />
+                    <include name = "eusd_buy_2_3" />
+                    <include name = "eusd_buy_2_4" />
+                    <include name = "eusd_buy_2_5" />
+                    <include name = "eusd_buy_2_6" />
+                    <include name = "eusd_buy_2_7" />
+                    <include name = "eusd_buy_2_8" />
+                    <include name = "eusd_buy_2_9" />
+                    <include name = "eusd_buy_2_10" />
+                    <include name = "eusd_buy_2_11" />
+                    <include name = "eusd_buy_2_12" />
+                    <include name = "eusd_buy_2_13" />
+                    <include name = "eusd_buy_2_14" />
+                    <include name = "eusd_buy_2_15" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="test_eusd_buy_3,EUSD,用户下单购买后，匹配到承兑商生成订单；用户点击【我已付款】；承兑商6分钟内无操作，订单状态变成已逾期（只是前端变化，接口没有变化）；承兑商确认收款，订单完成；">
+        <classes>
+            <class name = "test_case.test_eusd_buy_3">
+                <methods>
+                    <include name = "eusd_buy_3_1" />
+                    <include name = "eusd_buy_3_2" />
+                    <include name = "eusd_buy_3_3" />
+                    <include name = "eusd_buy_3_4" />
+                    <include name = "eusd_buy_3_5" />
+                    <include name = "eusd_buy_3_6" />
+                    <include name = "eusd_buy_3_7" />
+                    <include name = "eusd_buy_3_8" />
+                    <include name = "eusd_buy_3_9" />
+                    <include name = "eusd_buy_3_10" />
+                    <include name = "eusd_buy_3_11" />
+                    <include name = "eusd_buy_3_12" />
+                    <include name = "eusd_buy_3_13" />
+                    <include name = "eusd_buy_3_14" />
+                    <include name = "eusd_buy_3_15" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="test_eusd_sell_0,EUSD,普通用户,出售下单后，匹配到承兑商生成订单；承兑商取消订单，交易失败。">
+        <classes>
+            <class name = "test_case.test_eusd_sell_0">
+                <methods>
+                    <include name = "eusd_sell_0_1" />
+                    <include name = "eusd_sell_0_2" />
+                    <include name = "eusd_sell_0_3" />
+                    <include name = "eusd_sell_0_4" />
+                    <include name = "eusd_sell_0_5" />
+                    <include name = "eusd_sell_0_6" />
+                    <include name = "eusd_sell_0_7" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="test_eusd_sell_1,EUSD,普通用户,出售下单后，匹配到承兑商生成订单；承兑商15分钟内无操作，系统自动取消订单，交易失败。">
+        <classes>
+            <class name = "test_case.test_eusd_sell_1">
+                <methods>
+                    <include name = "eusd_sell_1_1" />
+                    <include name = "eusd_sell_1_2" />
+                    <include name = "eusd_sell_1_3" />
+                    <include name = "eusd_sell_1_4" />
+                    <include name = "eusd_sell_1_5" />
+                    <include name = "eusd_sell_1_6" />
+                    <include name = "eusd_sell_1_7" />
+                    <include name = "eusd_sell_1_8" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="test_eusd_sell_2,EUSD,普通用户,出售下单后，匹配到承兑商生成订单；承兑商确认付款；用户确认订单，交易成功；">
+        <classes>
+            <class name = "test_case.test_eusd_sell_2">
+                <methods>
+                    <include name = "eusd_sell_2_1" />
+                    <include name = "eusd_sell_2_2" />
+                    <include name = "eusd_sell_2_3" />
+                    <include name = "eusd_sell_2_4" />
+                    <include name = "eusd_sell_2_5" />
+                    <include name = "eusd_sell_2_6" />
+                    <include name = "eusd_sell_2_7" />
+                    <include name = "eusd_sell_2_8" />
+                    <include name = "eusd_sell_2_9" />
+                    <include name = "eusd_sell_2_10" />
+                    <include name = "eusd_sell_2_11" />
+                    <include name = "eusd_sell_2_12" />
+                    <include name = "eusd_sell_2_13" />
+                    <include name = "eusd_sell_2_14" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+
+
+
+    <test name="test_eusd_sell_3,EUSD,普通用户,出售下单后，匹配到承兑商生成订单；承兑商确认付款；用户6分钟内无操作，订单状态变更为“已逾期”； 用户点击收款，交易完成；">
+        <classes>
+            <class name = "test_case.test_eusd_sell_3">
+                <methods>
+                    <include name = "eusd_sell_3_1" />
+                    <include name = "eusd_sell_3_2" />
+                    <include name = "eusd_sell_3_3" />
+                    <include name = "eusd_sell_3_4" />
+                    <include name = "eusd_sell_3_5" />
+                    <include name = "eusd_sell_3_6" />
+                    <include name = "eusd_sell_3_7" />
+                    <include name = "eusd_sell_3_8" />
+                    <include name = "eusd_sell_3_9" />
+                    <include name = "eusd_sell_3_10" />
+                    <include name = "eusd_sell_3_11" />
+                    <include name = "eusd_sell_3_12" />
+                    <include name = "eusd_sell_3_13" />
+                    <include name = "eusd_sell_3_14" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+
+    <test name="test_eusd_transfer_accounts_0,EUSD,普通用户转账给普通用户">
+        <classes>
+            <class name = "test_case.test_eusd_transfer_accounts_0">
+                <methods >
+                    <include name = "eusd_transfer_accounts_0_1" />
+                    <include name = "eusd_transfer_accounts_0_2" />
+                    <include name = "eusd_transfer_accounts_0_3" />
+                    <include name = "eusd_transfer_accounts_0_4" />
+                    <include name = "eusd_transfer_accounts_0_5" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="test_usdt_mortgage_redeem_0,USDT全部抵押后赎回">
+        <classes>
+            <class name = "test_case.test_usdt_mortgage_redeem_0">
+                <methods >
+                    <include name = "usdt_mortgage_redeem_0_1" />
+                    <include name = "usdt_mortgage_redeem_0_2" />
+                    <include name = "usdt_mortgage_redeem_0_3" />
+                    <include name = "usdt_mortgage_redeem_0_4" />
+                    <include name = "usdt_mortgage_redeem_0_5" />
+                    <include name = "usdt_mortgage_redeem_0_6" />
+                    <include name = "usdt_mortgage_redeem_0_7" />
+                    <include name = "usdt_mortgage_redeem_0_8" />
+                    <include name = "usdt_mortgage_redeem_0_9" />
+                    <include name = "usdt_mortgage_redeem_0_10" />
+                    <include name = "usdt_mortgage_redeem_0_11" />
+                    <include name = "usdt_mortgage_redeem_0_12" />
+                    <include name = "usdt_mortgage_redeem_0_13" />
+                    <include name = "usdt_mortgage_redeem_0_14" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="test_usdt_mortgage_redeem_1,USDT部分抵押后赎回">
+        <classes>
+            <class name = "test_case.test_usdt_mortgage_redeem_1">
+                <methods >
+                    <include name = "usdt_mortgage_redeem_1_1" />
+                    <include name = "usdt_mortgage_redeem_1_2" />
+                    <include name = "usdt_mortgage_redeem_1_3" />
+                    <include name = "usdt_mortgage_redeem_1_4" />
+                    <include name = "usdt_mortgage_redeem_1_5" />
+                    <include name = "usdt_mortgage_redeem_1_6" />
+                    <include name = "usdt_mortgage_redeem_1_7" />
+                    <include name = "usdt_mortgage_redeem_1_8" />
+                    <include name = "usdt_mortgage_redeem_1_9" />
+                    <include name = "usdt_mortgage_redeem_1_10" />
+                    <include name = "usdt_mortgage_redeem_1_11" />
+                    <include name = "usdt_mortgage_redeem_1_12" />
+                    <include name = "usdt_mortgage_redeem_1_13" />
+                    <include name = "usdt_mortgage_redeem_1_14" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+<!--    &lt;!&ndash;需要真实数据真实账号测试，先忽略0626&ndash;&gt;-->
+<!--    <test name="test_eusd_transfer_accounts_0,USDT转账">-->
+<!--        <classes>-->
+<!--            <class name = "test_case.test_eusd_transfer_accounts_0">-->
+<!--                <methods>-->
+<!--                    <include name = "eusd_transfer_accounts_0_1" />-->
+<!--                    <include name = "eusd_transfer_accounts_0_2" />-->
+<!--                    <include name = "eusd_transfer_accounts_0_3" />-->
+<!--                    <include name = "eusd_transfer_accounts_0_4" />-->
+<!--                    <include name = "eusd_transfer_accounts_0_5" />-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+    <test name="test_appeal_0,购买EUSD后，双方申诉">
+        <classes>
+            <class name = "test_case.test_appeal_0">
+                <methods>
+                    <include name = "test_appeal_0_1" />
+                    <include name = "test_appeal_0_2" />
+                    <include name = "test_appeal_0_3" />
+                    <include name = "test_appeal_0_4" />
+                    <include name = "test_appeal_0_5" />
+                    <include name = "test_appeal_0_6" />
+                    <include name = "test_appeal_0_7" />
+                    <include name = "test_appeal_0_8" />
+                    <include name = "test_appeal_0_9" />
+                    <include name = "test_appeal_0_10" />
+                    <include name = "test_appeal_0_11" />
+                    <include name = "test_appeal_0_12" />
+                    <include name = "test_appeal_0_13" />
+                    <include name = "test_appeal_0_14" />
+                    <include name = "test_appeal_0_15" />
+                    <include name = "test_appeal_0_16" />
+                    <include name = "test_appeal_0_17" />
+                    <include name = "test_appeal_0_18" />
+                    <include name = "test_appeal_0_19" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+
+    <!--监听测试，生成测试报告，发送测试汇总消息-->
+    <listeners>
+        <listener class-name="basic.myExtentTestNgFormatter" />
+    </listeners>
+
+
+
+</suite>
+
+
+

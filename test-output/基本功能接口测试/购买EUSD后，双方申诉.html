@@ -1,0 +1,487 @@
+<html>
+<head>
+<title>TestNG:  购买EUSD后，双方申诉</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>购买EUSD后，双方申诉</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/19</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 25 16:55:29 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (635 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test_case.test_appeal_0.before_class()'><b>before_class</b><br>Test class: test_case.test_appeal_0<br>Parameters: org.testng.TestRunner@27ce24aa</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at test_case.User.login_and_return_token(User.java:570)
+	at test_case.test_appeal_0.before_class(test_appeal_0.java:143)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1413673443", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1413673443'><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at test_case.User.login_and_return_token(User.java:570)
+	at test_case.test_appeal_0.before_class(test_appeal_0.java:143)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>test_case.test_appeal_0@5223e5ee</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test_case.test_appeal_0.before_methd()'><b>before_methd</b><br>Test class: test_case.test_appeal_0</td>
+<td></td>
+<td>0</td>
+<td>test_case.test_appeal_0@5223e5ee</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.afterclass()'><b>afterclass</b><br>Test class: test_case.test_appeal_0</td>
+<td></td>
+<td>0</td>
+<td>test_case.test_appeal_0@5223e5ee</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_1()'><b>test_appeal_0_1</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户下单，判断是否下单成功（根据是否返回订单ID来判断）<br>Parameters: org.testng.TestRunner@27ce24aa</td>
+<td><div><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at test_case.User.login_and_return_token(User.java:570)
+	at test_case.test_appeal_0.before_class(test_appeal_0.java:143)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1156406392", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1156406392'><pre>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at test_case.User.login_and_return_token(User.java:570)
+	at test_case.test_appeal_0.before_class(test_appeal_0.java:143)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>test_case.test_appeal_0@5223e5ee</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_10()'><b>test_appeal_0_10</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户点击【申诉】后，查看用户申诉状态</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_10(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1925789970", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1925789970'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_10(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_11()'><b>test_appeal_0_11</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户点击【申诉】后，查看承兑商申诉状态</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_11(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace404760251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace404760251'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_11(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_12()'><b>test_appeal_0_12</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户点击【取消申诉】，查看取消是否成功</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_12(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1246362044", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1246362044'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_12(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_13()'><b>test_appeal_0_13</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户点击【取消申诉】后，查看用户申诉状态</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_13(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1150160517", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1150160517'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_13(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_14()'><b>test_appeal_0_14</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户点击【取消申诉】后，查看承兑商申诉状态</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_14(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1085379276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1085379276'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_14(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_15()'><b>test_appeal_0_15</b><br>Test class: test_case.test_appeal_0<br>Test method: 承兑商点击【申诉】，查看申诉是否成功</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_15(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace95618238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace95618238'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_15(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_16()'><b>test_appeal_0_16</b><br>Test class: test_case.test_appeal_0<br>Test method: 承兑商申诉后，查看承兑商申诉状态</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_16(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace3312045", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3312045'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_16(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_17()'><b>test_appeal_0_17</b><br>Test class: test_case.test_appeal_0<br>Test method: 承兑商申诉后，查看用户申诉状态</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_17(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace880559368", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace880559368'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_17(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_18()'><b>test_appeal_0_18</b><br>Test class: test_case.test_appeal_0<br>Test method: 承兑商点击【取消申诉】，承兑商订单状态变为“已付款待确认”</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_18(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2014811833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2014811833'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_18(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_19()'><b>test_appeal_0_19</b><br>Test class: test_case.test_appeal_0<br>Test method: 承兑商点击【取消申诉】，用户订单状态变为“已付款待确认”</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_19(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1704786929", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1704786929'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_19(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_2()'><b>test_appeal_0_2</b><br>Test class: test_case.test_appeal_0<br>Test method: 下单成功后，用户【我的】【我的订单】页面第一列显示该订单，且订单状态为“未付款”</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_2(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace604696065", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace604696065'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_2(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_3()'><b>test_appeal_0_3</b><br>Test class: test_case.test_appeal_0<br>Test method: 下单成功后，承兑商【承兑】【承兑资产】资金冻结X</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_3(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace820062271", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace820062271'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_3(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_4()'><b>test_appeal_0_4</b><br>Test class: test_case.test_appeal_0<br>Test method: 下单成功后，承兑商【承兑】【收款订单】页面第一列显示该订单，订单状态为“未付款”</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_4(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1920880096", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1920880096'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_4(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_5()'><b>test_appeal_0_5</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户点击【我已付款】，查看付款是否成功</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_5(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace3326149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3326149'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_5(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_6()'><b>test_appeal_0_6</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户付款后，用户【我的】【我的订单】页面第一列显示该订单，且订单状态为”已付款待确认（2）”</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_6(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1926527193", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1926527193'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_6(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_7()'><b>test_appeal_0_7</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户付款后，承兑商【承兑】【收款订单】页面第一列显示该订单，订单状态为“已付款”</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_7(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2109032494", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2109032494'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_7(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_8()'><b>test_appeal_0_8</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户付款后，承兑商【承兑】【今日累积收款】金额不变（保存今日累积收款金额，便于参与计算）</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_8(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace988318603", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace988318603'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_8(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='test_case.test_appeal_0.test_appeal_0_9()'><b>test_appeal_0_9</b><br>Test class: test_case.test_appeal_0<br>Test method: 用户点击【申诉】，查看申诉是否成功</td>
+<td><div><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_9(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace875071020", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace875071020'><pre>java.lang.Throwable: Method test_appeal_0.test_appeal_0_9(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>

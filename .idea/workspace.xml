@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8139c098-6e6e-4fe5-9081-1fd09d491b9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_case/before_fun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_case/before_fun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_case/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_case/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/web_autotest_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/web_autotest_log.txt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/basic/myExtentTestNgFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test_case/before_fun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test_case/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="2300" selection-start-line="2300" selection-end-line="2300" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test_case/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="34" lean-forward="true" selection-end-line="139" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>充值EUSD方法，每次充值后等待15秒</find>
+      <find>试前初始化用户多线程中，获取EUSD的可用余额方法，请求的响应</find>
+      <find>承兑商用户初始化，此处记录初始化的结</find>
+      <find>兑商USDT充值方法，请求返回的result是</find>
+      <find>充值EUSD方法，请求返回的result是</find>
+      <find>账号够用，无需初始化，可直接调起测试</find>
+      <find>充值EUSD方法,服务器返回200，充值成功</find>
+      <find>创建申诉方法，请求返回的result是</find>
+      <find>录后获取token方法，请求返回的resu</find>
+      <find>0625，查看cookie</find>
+      <find>例化对象开始,查看本次的role是</find>
+      <find>实例化对象开始,查看本次的role是：eu_user,</find>
+      <find>httpclient</find>
+      <find>始化eu_user用户中,查看初始化的结果数组</find>
+      <find>开始递归判断初始化是否完成</find>
+      <find>初始化eu_user用户中,查看初始化的结果数组</find>
+      <find>初始化user用户中,查看初始化的结果数组</find>
+      <find>当前i是</find>
+      <find>实例化对象开始,查看本次的role是</find>
+      <find>开启指定的承兑商</find>
+      <find>st_eusd_buy_2用例获得的手机账号</find>
+      <find>t_eusd_buy_2用例获得的手机账号</find>
+      <find>v1_exchange_info_return_trade</find>
+      <find>v1_eos</find>
+      <find>st_eusd_buy_3用例获得的手机账</find>
+      <find>st_eusd_buy_1用例获得的手机</find>
+      <find>usd_buy_2_1，查看下单返回订单的id是</find>
+      <find>点击赎回USDT接口方法,请求的响应是</find>
+      <find>用例获得的手机账号是</find>
+      <find>eusd_buy_3_1，查看下单返回订单的id</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_buy_4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_buy_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_buy_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_buy_3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/gst_test_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/gst_test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_buy_0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_gst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/before_suite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/BeforeSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_0_test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/base_fun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_sell_0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_sell_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_sell_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_sell_3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_sell_4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/usdt_mortgage_redeem_0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/usdt_mortgage_redeem_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/usdt_transfer_accounts_0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/eusd_transfer_accounts_0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_0529.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/before_fun_0530.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/before_fun_cundang.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/initialize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_sell_0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_sell_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_sell_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_transfer_accounts_0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_appeal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/urlData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/weChatData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/sendWeChatMsg.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_sell_3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_usdt_mortgage_redeem_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_usdt_transfer_accounts_0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_appeal_0.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_usdt_mortgage_redeem_0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/myExtentTestNgFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_0.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/before_fun.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/test_case/main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="0512test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2270" />
+    <option name="y" value="447" />
+    <option name="width" value="1932" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="autotest-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="0512test" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="autotest-master (调通连接数据库、buy的前两条测试用例）" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="0512test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="autotest-master (调通连接数据库、buy的前两条测试用例）" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="0512test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="autotest-master (调通连接数据库、buy的前两条测试用例）" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="0512test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="autotest-master (调通连接数据库、buy的前两条测试用例）" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="0512test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="autotest-master (调通连接数据库、buy的前两条测试用例）" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="0512test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="basic" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="autotest-master (调通连接数据库、buy的前两条测试用例）" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="0512test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test_case" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="autotest-master (调通连接数据库、buy的前两条测试用例）" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="0512test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="autotest-master (调通连接数据库、buy的前两条测试用例）" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="0512test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="autotest-master (调通连接数据库、buy的前两条测试用例）" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="0512test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="autotest-master (调通连接数据库、buy的前两条测试用例）" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="0512test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test-output" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="D:/SDK" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../com_web_autotest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Console" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basic" />
+      <recent name="test_case" />
+      <recent name="usdt_buy" />
+      <recent name="usdt_pay" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVAWORKSPACE\0512test\src\main\java" />
+      <recent name="E:\JAVAWORKSPACE\0512test\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.main">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="D:/JDK" />
+      <option name="MAIN_CLASS_NAME" value="test_case.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test_case.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="AppAutotest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="AppAutotest" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/JAVAWORKSPACE/0512test/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AppAutotest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/JAVAWORKSPACE/autotest-master_0529/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="autotest-master_0529" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_appeal_0" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test_case.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test_case" />
+      <option name="MAIN_CLASS_NAME" value="test_case.test_appeal_0" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="TestNG.E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.test_appeal_0" />
+        <item itemvalue="TestNG.E:/JAVAWORKSPACE/0512test/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.E:/JAVAWORKSPACE/autotest-master_0529/src/main/resources/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8139c098-6e6e-4fe5-9081-1fd09d491b9f" name="Default Changelist" comment="" />
+      <created>1557647706704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557647706704</updated>
+      <workItem from="1557647709604" duration="17964000" />
+      <workItem from="1557722741792" duration="7924000" />
+      <workItem from="1557730681155" duration="24859000" />
+      <workItem from="1557802305451" duration="10434000" />
+      <workItem from="1557821414125" duration="204000" />
+      <workItem from="1557821668989" duration="75000" />
+      <workItem from="1557821751141" duration="8951000" />
+      <workItem from="1557883189049" duration="2309000" />
+      <workItem from="1557885525401" duration="8471000" />
+      <workItem from="1557972232511" duration="1095000" />
+      <workItem from="1557973993616" duration="57482000" />
+      <workItem from="1558315674799" duration="27913000" />
+      <workItem from="1558350818629" duration="41543000" />
+      <workItem from="1558492981955" duration="13477000" />
+      <workItem from="1558511700793" duration="17736000" />
+      <workItem from="1558581204081" duration="420000" />
+      <workItem from="1558581645607" duration="235000" />
+      <workItem from="1558582052871" duration="2416000" />
+      <workItem from="1558589387053" duration="27291000" />
+      <workItem from="1558661432061" duration="4739000" />
+      <workItem from="1558666289204" duration="27192000" />
+      <workItem from="1558747833722" duration="311000" />
+      <workItem from="1558748169290" duration="34581000" />
+      <workItem from="1558920720126" duration="71495000" />
+      <workItem from="1559093036352" duration="2485000" />
+      <workItem from="1559096679071" duration="1452000" />
+      <workItem from="1559100617428" duration="17000" />
+      <workItem from="1559100934574" duration="4000" />
+      <workItem from="1559100976769" duration="11000" />
+      <workItem from="1559100995306" duration="67000" />
+      <workItem from="1559101190390" duration="4778000" />
+      <workItem from="1559111326048" duration="45101000" />
+      <workItem from="1559224681910" duration="20922000" />
+      <workItem from="1559287269023" duration="47000" />
+      <workItem from="1559287436444" duration="19206000" />
+      <workItem from="1559488952633" duration="21602000" />
+      <workItem from="1559618530849" duration="6059000" />
+      <workItem from="1559631388318" duration="119000" />
+      <workItem from="1559631513567" duration="58000" />
+      <workItem from="1559631592203" duration="71820000" />
+      <workItem from="1559811432794" duration="16953000" />
+      <workItem from="1560147282784" duration="29066000" />
+      <workItem from="1560306418782" duration="20156000" />
+      <workItem from="1560410183769" duration="2918000" />
+      <workItem from="1560413275210" duration="14979000" />
+      <workItem from="1560476133632" duration="1941000" />
+      <workItem from="1560479330956" duration="3124000" />
+      <workItem from="1560741746030" duration="13838000" />
+      <workItem from="1560827836055" duration="134000" />
+      <workItem from="1560841060733" duration="3542000" />
+      <workItem from="1560874518428" duration="8023000" />
+      <workItem from="1561026422517" duration="89000" />
+      <workItem from="1561026518240" duration="4771000" />
+      <workItem from="1561080624809" duration="1659000" />
+      <workItem from="1561082317132" duration="25821000" />
+      <workItem from="1561114484159" duration="64000" />
+      <workItem from="1561114583051" duration="3428000" />
+      <workItem from="1561341803148" duration="687000" />
+      <workItem from="1561343495410" duration="1107000" />
+      <workItem from="1561366631243" duration="1257000" />
+      <workItem from="1561449807571" duration="111000" />
+      <workItem from="1561449924250" duration="665000" />
+      <workItem from="1561451208631" duration="17000" />
+      <workItem from="1561451231395" duration="72000" />
+      <workItem from="1561451443901" duration="6246000" />
+      <workItem from="1561459519140" duration="15635000" />
+      <workItem from="1561547431757" duration="24106000" />
+      <workItem from="1561714625326" duration="294000" />
+      <workItem from="1561714941423" duration="1927000" />
+      <workItem from="1561947303074" duration="23265000" />
+      <workItem from="1562117666073" duration="2386000" />
+    </task>
+    <task id="LOCAL-00001" summary="java接口测试">
+      <created>1557835573966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557835573966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java接口测试">
+      <created>1558581400575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558581400575</updated>
+    </task>
+    <task id="LOCAL-00003" summary="java接口测试">
+      <created>1558582552735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558582552735</updated>
+    </task>
+    <task id="LOCAL-00004" summary="java接口测试">
+      <created>1559786601611</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559786601611</updated>
+    </task>
+    <task id="LOCAL-00005" summary="测试前初始化功能完善：当账号初始化失败时，废弃后重新新建账号进行初始化&#10;测试用例修改">
+      <created>1560479728304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560479728304</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="E__JAVAWORKSPACE_autotest-master_src_main_resources_testng_xml - 2019.06.26 at 19h 55m 33s.xml">
+      <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__JAVAWORKSPACE_autotest-master_src_main_resources_testng_xml - 2019.06.26 at 20h 03m 19s.xml">
+      <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__JAVAWORKSPACE_autotest-master_src_main_resources_testng_xml - 2019.06.27 at 01h 38m 24s.xml">
+      <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__JAVAWORKSPACE_autotest-master_src_main_resources_testng_xml - 2019.06.27 at 14h 23m 57s.xml">
+      <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__JAVAWORKSPACE_autotest-master_src_main_resources_testng_xml - 2019.06.28 at 13h 30m 24s.xml">
+      <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__JAVAWORKSPACE_autotest-master_src_main_resources_testng_xml - 2019.06.28 at 14h 49m 29s.xml">
+      <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__JAVAWORKSPACE_autotest-master_src_main_resources_testng_xml - 2019.06.28 at 15h 16m 35s.xml">
+      <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__JAVAWORKSPACE_autotest-master_src_main_resources_testng_xml - 2019.07.01 at 13h 22m 04s.xml">
+      <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__JAVAWORKSPACE_autotest-master_src_main_resources_testng_xml - 2019.07.01 at 13h 57m 30s.xml">
+      <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__JAVAWORKSPACE_autotest-master_src_main_resources_testng_xml - 2019.07.02 at 11h 56m 06s.xml">
+      <configuration name="E:/JAVAWORKSPACE/autotest-master/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="830911000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2270" y="447" width="1932" height="1038" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Project" order="5" visible="true" weight="0.22168803" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49932975" weight="0.13579212" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49932975" weight="0.22566372" />
+      <window_info anchor="bottom" id="Database Changes" order="3" sideWeight="0.49932975" weight="0.32757267" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.502439" side_tool="true" weight="0.34115675" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49865952" weight="0.3937677" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49756098" visible="true" weight="0.30309734" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.73275864" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.49865952" weight="0.32757267" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.17082684" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" weight="0.27861685" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3298887" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24987556" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java接口测试" />
+    <MESSAGE value="测试前初始化功能完善：当账号初始化失败时，废弃后重新新建账号进行初始化&#10;测试用例修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试前初始化功能完善：当账号初始化失败时，废弃后重新新建账号进行初始化&#10;测试用例修改" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_sell_3.java</url>
+          <line>292</line>
+          <properties />
+          <option name="timeStamp" value="795" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test_case/test_usdt_transfer_accounts_0.java</url>
+          <line>148</line>
+          <properties />
+          <option name="timeStamp" value="805" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test_case/test_usdt_transfer_accounts_0.java</url>
+          <line>195</line>
+          <properties />
+          <option name="timeStamp" value="806" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test_case/test_appeal_0.java</url>
+          <line>578</line>
+          <properties />
+          <option name="timeStamp" value="807" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test_case/test_appeal_0.java</url>
+          <line>496</line>
+          <properties />
+          <option name="timeStamp" value="808" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_2.java</url>
+          <line>406</line>
+          <properties />
+          <option name="timeStamp" value="809" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_1.java</url>
+          <line>253</line>
+          <properties />
+          <option name="timeStamp" value="810" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_3.java</url>
+          <line>440</line>
+          <properties />
+          <option name="timeStamp" value="811" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://D:/JDK/lib/src.zip!/java.base/java/math/BigDecimal.java</url>
+          <line>2775</line>
+          <properties class="java.math.BigDecimal" method="setScale">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/test_case/User.java</url>
+          <line>535</line>
+          <properties class="test_case.User" method="login_and_return_token">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="782" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/eusd_buy_0.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_gst_1.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4e2708fd-9dee-4599-a5a0-418ae4f20639/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar!/org/apache/http/impl/client/AbstractHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="489" column="30" selection-start-line="489" selection-start-column="30" selection-end-line="489" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/base_fun.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_4.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/eusd_buy_2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_sell_4.java" />
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="1224" column="61" selection-start-line="1224" selection-start-column="61" selection-end-line="1224" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/IAttributes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/autotest_result.html" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/ITestNGMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_0529.java" />
+    <entry file="jar://D:/JDK/lib/src.zip!/java.sql/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="290" column="47" lean-forward="true" selection-start-line="289" selection-start-column="7" selection-end-line="290" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/before_fun_0530.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/before_fun_cundang.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/initialize.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="619" column="16" selection-start-line="619" selection-start-column="16" selection-end-line="619" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#24510#24511#0" expanded="true" />
+            <element signature="e#24552#24553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_sell_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="294" selection-start-line="294" selection-end-line="301" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest.sql" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar!/org/apache/http/impl/client/DefaultHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="785" column="29" selection-start-line="785" selection-start-column="29" selection-end-line="785" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#81016#0" expanded="true" />
+            <element signature="e#17077#17078#0" expanded="true" />
+            <element signature="e#17143#17144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK/lib/src.zip!/java.base/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="62" column="6" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_usdt_transfer_accounts_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3268#3276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_sell_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="352" column="59" selection-start-line="352" selection-start-column="44" selection-end-line="352" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_sell_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="258" column="41" lean-forward="true" selection-start-line="258" selection-start-column="41" selection-end-line="258" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_appeal_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/urlData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/org/apache/commons/logging/LogFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="236" column="22" selection-start-line="236" selection-start-column="22" selection-end-line="236" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="156" column="43" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_sell_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/sendWeChatMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WXWork/1688852942491880/Cache/File/2019-07/docker-runner.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_usdt_mortgage_redeem_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_usdt_mortgage_redeem_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6973">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_transfer_accounts_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="109" column="41" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/weChatData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4883">
+          <caret line="257" column="25" selection-start-line="257" selection-start-column="25" selection-end-line="257" selection-end-column="25" />
+          <folding>
+            <marker date="1562060915828" expanded="true" signature="740:1424" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/test_eusd_buy_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/myExtentTestNgFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/before_fun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="2300" selection-start-line="2300" selection-end-line="2300" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_case/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="34" lean-forward="true" selection-end-line="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AutoTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.41</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

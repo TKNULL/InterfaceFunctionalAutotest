@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="0" failed="0" skipped="19">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-25T08:55:29Z" name="基本功能接口测试" finished-at="2019-06-25T08:55:30Z" duration-ms="635">
+    <groups>
+    </groups>
+    <test started-at="2019-06-25T08:55:29Z" name="购买EUSD后，双方申诉" finished-at="2019-06-25T08:55:30Z" duration-ms="635">
+      <class name="test_case.test_appeal_0">
+        <test-method is-config="true" signature="before_class(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:29Z" name="before_class" finished-at="2019-06-25T16:55:29Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27ce24aa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 0 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at test_case.User.login_and_return_token(User.java:570)
+	at test_case.test_appeal_0.before_class(test_appeal_0.java:143)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_class -->
+        <test-method is-config="true" signature="before_methd()[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="before_methd" finished-at="2019-06-25T16:55:30Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_methd -->
+        <test-method signature="test_appeal_0_1(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_1" description="用户下单，判断是否下单成功（根据是否返回订单ID来判断）" finished-at="2019-06-25T16:55:30Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27ce24aa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 0 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at test_case.User.login_and_return_token(User.java:570)
+	at test_case.test_appeal_0.before_class(test_appeal_0.java:143)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_1 -->
+        <test-method signature="test_appeal_0_2(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_2" description="下单成功后，用户【我的】【我的订单】页面第一列显示该订单，且订单状态为“未付款”" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_1" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_2(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_2(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_2 -->
+        <test-method signature="test_appeal_0_3(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_3" description="下单成功后，承兑商【承兑】【承兑资产】资金冻结X" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_2" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_3(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_3(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_3 -->
+        <test-method signature="test_appeal_0_4(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_4" description="下单成功后，承兑商【承兑】【收款订单】页面第一列显示该订单，订单状态为“未付款”" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_3" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_4(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_4(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_4 -->
+        <test-method signature="test_appeal_0_5(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_5" description="用户点击【我已付款】，查看付款是否成功" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_4" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_5(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_5(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_5 -->
+        <test-method signature="test_appeal_0_6(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_6" description="用户付款后，用户【我的】【我的订单】页面第一列显示该订单，且订单状态为”已付款待确认（2）”" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_5" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_6(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_6(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_6 -->
+        <test-method signature="test_appeal_0_7(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_7" description="用户付款后，承兑商【承兑】【收款订单】页面第一列显示该订单，订单状态为“已付款”" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_6" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_7(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_7(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_7 -->
+        <test-method signature="test_appeal_0_8(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_8" description="用户付款后，承兑商【承兑】【今日累积收款】金额不变（保存今日累积收款金额，便于参与计算）" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_7" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_8(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_8(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_8 -->
+        <test-method signature="test_appeal_0_9(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_9" description="用户点击【申诉】，查看申诉是否成功" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_8" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_9(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_9(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_9 -->
+        <test-method signature="test_appeal_0_10(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_10" description="用户点击【申诉】后，查看用户申诉状态" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_9" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_10(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_10(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_10 -->
+        <test-method signature="test_appeal_0_11(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_11" description="用户点击【申诉】后，查看承兑商申诉状态" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_10" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_11(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_11(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_11 -->
+        <test-method signature="test_appeal_0_13(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_13" description="用户点击【取消申诉】后，查看用户申诉状态" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_12" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_13(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_13(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_13 -->
+        <test-method signature="test_appeal_0_15(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_15" description="承兑商点击【申诉】，查看申诉是否成功" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_14" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_15(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_15(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_15 -->
+        <test-method signature="test_appeal_0_12(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_12" description="用户点击【取消申诉】，查看取消是否成功" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_11" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_12(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_12(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_12 -->
+        <test-method signature="test_appeal_0_14(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_14" description="用户点击【取消申诉】后，查看承兑商申诉状态" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_13" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_14(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_14(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_14 -->
+        <test-method is-config="true" signature="afterclass(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="afterclass" finished-at="2019-06-25T16:55:30Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method signature="test_appeal_0_19(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_19" description="承兑商点击【取消申诉】，用户订单状态变为“已付款待确认”" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_18" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_19(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_19(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_19 -->
+        <test-method signature="test_appeal_0_18(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_18" description="承兑商点击【取消申诉】，承兑商订单状态变为“已付款待确认”" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_17" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_18(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_18(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_18 -->
+        <test-method signature="test_appeal_0_17(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_17" description="承兑商申诉后，查看用户申诉状态" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_16" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_17(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_17(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_17 -->
+        <test-method signature="test_appeal_0_16(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee]" started-at="2019-06-25T16:55:30Z" name="test_appeal_0_16" description="承兑商申诉后，查看承兑商申诉状态" finished-at="2019-06-25T16:55:30Z" depends-on-methods="test_case.test_appeal_0.test_appeal_0_15" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test_appeal_0.test_appeal_0_16(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test_appeal_0.test_appeal_0_16(org.testng.ITestContext)[pri:0, instance:test_case.test_appeal_0@5223e5ee] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_appeal_0_16 -->
+      </class> <!-- test_case.test_appeal_0 -->
+    </test> <!-- 购买EUSD后，双方申诉 -->
+  </suite> <!-- 基本功能接口测试 -->
+</testng-results>

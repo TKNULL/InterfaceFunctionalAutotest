@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-02T07:25:35Z" name="基本功能接口测试" finished-at="2019-07-02T07:25:35Z" duration-ms="25">
+    <groups>
+    </groups>
+    <test started-at="2019-07-02T07:25:35Z" name="test_eusd_buy_0,EUSD,普通用户，下单购买，订单生成后，用户取消订单" finished-at="2019-07-02T07:25:35Z" duration-ms="25">
+      <class name="test_case.test_eusd_buy_0">
+        <test-method signature="eusd_buy_0_1(org.testng.ITestContext)[pri:0, instance:test_case.test_eusd_buy_0@123f1134]" started-at="2019-07-02T15:25:35Z" name="eusd_buy_0_1" description="用户下单，判断是否下单成功（根据是否返回订单ID来判断）" finished-at="2019-07-02T15:25:35Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ea227af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eusd_buy_0_1 -->
+      </class> <!-- test_case.test_eusd_buy_0 -->
+    </test> <!-- test_eusd_buy_0,EUSD,普通用户，下单购买，订单生成后，用户取消订单 -->
+  </suite> <!-- 基本功能接口测试 -->
+</testng-results>

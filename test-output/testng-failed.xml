@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="12" parallel="methods" name="Failed suite [基本功能接口测试]">
+  <listeners>
+    <listener class-name="basic.myExtentTestNgFormatter"/>
+  </listeners>
+  <test parallel="methods" name="购买EUSD后，双方申诉(failed)">
+    <classes>
+      <class name="test_case.test_appeal_0">
+        <methods>
+          <include name="test_appeal_0_1" invocation-numbers="0"/>
+          <include name="test_appeal_0_17"/>
+          <include name="test_appeal_0_18"/>
+          <include name="test_appeal_0_5"/>
+          <include name="test_appeal_0_19"/>
+          <include name="test_appeal_0_13"/>
+          <include name="test_appeal_0_14"/>
+          <include name="test_appeal_0_15"/>
+          <include name="test_appeal_0_16"/>
+          <include name="before_class"/>
+          <include name="test_appeal_0_10"/>
+          <include name="test_appeal_0_11"/>
+          <include name="test_appeal_0_12"/>
+          <include name="test_appeal_0_4"/>
+          <include name="test_appeal_0_3"/>
+          <include name="test_appeal_0_2"/>
+          <include name="test_appeal_0_9"/>
+          <include name="test_appeal_0_8"/>
+          <include name="test_appeal_0_7"/>
+          <include name="test_appeal_0_6"/>
+        </methods>
+      </class> <!-- test_case.test_appeal_0 -->
+    </classes>
+  </test> <!-- 购买EUSD后，双方申诉(failed) -->
+</suite> <!-- Failed suite [基本功能接口测试] -->
